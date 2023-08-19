@@ -10,7 +10,7 @@ export default function Login (){
             </nav>
         <div>
             <h1>Login</h1>
-            <form>
+            <form className="container">
                 <input type="text" placeholder="Email"></input>
                 <br/>
                 <input type="text" placeholder="Password"></input>

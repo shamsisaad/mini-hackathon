@@ -25,7 +25,7 @@ export default function Home() {
         <div>
         <Layout>
          
-      <h1>Welcome to My Blog</h1>
+      <h1>Good Morning App</h1>
       {/* Display a list of recent blog posts here */}
     </Layout>
         </div>

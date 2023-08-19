@@ -12,7 +12,9 @@ const Signup = () => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
   };
-  
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+  }
 }
 export default function SignUp (){
  
@@ -24,9 +26,8 @@ export default function SignUp (){
         </nav>
     <div>
         <h1>SignUp</h1>
-        <form>
-        e.preventDefault();
-            <input type="text" placeholder="First Name"></input>
+        <form className="container">
+         <input type="text" placeholder="First Name"></input>
             <br/>
             <input type="text" placeholder="Last Name"></input>
             <br/>
